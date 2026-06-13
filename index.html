@@ -1,95 +1,275 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ujjwal Chakrabarti - Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Ujjwal Chakrabarti portfolio — Lead Credit Analyst with 13+ years of experience in risk, operations, and AI-driven process improvement." />
+  <title>Ujjwal Chakrabarti | Lead Credit Analyst</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600,700&f[]=zodiak@400,500,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="header">
-    <nav class="nav">
-      <h1 class="nav-title">UC</h1>
-      <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-row">
+      <a class="brand" href="#home" aria-label="Ujjwal Chakrabarti home">
+        <svg viewBox="0 0 72 72" class="brand-mark" fill="none" aria-hidden="true">
+          <rect x="8" y="8" width="56" height="56" rx="18" stroke="currentColor" stroke-width="4"></rect>
+          <path d="M24 24V39C24 47 28.5 52 36 52C43.5 52 48 47 48 39V24" stroke="currentColor" stroke-width="4" stroke-linecap="round"></path>
+          <path d="M28 24H44" stroke="currentColor" stroke-width="4" stroke-linecap="round"></path>
+        </svg>
+        <span>Ujjwal Chakrabarti</span>
+      </a>
+
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#credentials">Credentials</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch color theme">
+        <span class="theme-toggle__icon">◐</span>
+      </button>
+    </div>
   </header>
 
-  <main>
-    <!-- Hero Section -->
-    <section class="hero">
-      <h1 class="hero-title">Ujjwal Chakrabarti</h1>
-      <p class="hero-subtitle">Operations & Risk Professional → Automation & AI Engineer</p>
-      <p class="hero-text">
-        13+ years in customer service, credit collections, bankruptcy, and HNWI account reviews.
-        Building automation workflows with Python, LangChain, N8N, and AI agents.
-      </p>
-      <a href="#contact" class="btn btn-primary">Get in Touch</a>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="section about">
-      <h2 class="section-title">About Me</h2>
-      <p class="about-text">
-        I bring deep experience in high-trust operations, credit risk, and service quality,
-        now combining it with automation and AI to improve efficiency and process outcomes.
-      </p>
-    </section>
-
-    <!-- Experience Section -->
-    <section id="experience" class="section experience">
-      <h2 class="section-title">Experience Highlights</h2>
-      <ul class="experience-list">
-        <li><strong>Customer Service & Collections:</strong> 13+ years handling complex cases</li>
-        <li><strong>Bankruptcy Procedures:</strong> End-to-end process management</li>
-        <li><strong>HNWI Account Reviews:</strong> Risk-based service recommendations</li>
-        <li><strong>Automation Learning:</strong> Python, LangChain, N8N, Make, Docker, AI Agents</li>
-      </ul>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects" class="section projects">
-      <h2 class="section-title">Projects</h2>
-      <div class="projects-grid">
-        <div class="project-card">
-          <h3 class="project-title">LangChain QA Chain with Memory</h3>
-          <p class="project-desc">
-            Built a QA chain using LangChain with conversation memory and context handling.
+  <main id="main">
+    <section class="hero section" id="home">
+      <div class="container hero-layout">
+        <div class="hero-copy">
+          <p class="eyebrow">Lead credit analyst · risk · operations · AI process improvement</p>
+          <h1>Grounded in credit and risk. Building toward smarter process execution.</h1>
+          <p class="hero-text">
+            I am a Lead Credit Analyst with 13+ years of professional experience across credit review, collections, operational control support, stakeholder coordination, and process improvement. I am now extending that foundation toward AI-enabled workflow improvement and more intelligent business operations.
           </p>
-          <a href="https://github.com/aiujjwal18-web/langchain-memory-qa" class="project-link">View on GitHub →</a>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contact">Get in touch</a>
+            <a class="btn btn-secondary" href="#experience">See experience</a>
+          </div>
         </div>
-        <div class="project-card">
-          <h3 class="project-title">N8N + Firecrawl Automation</h3>
-          <p class="project-desc">
-            Web data extraction workflow using N8N and Firecrawl for scraping and processing.
+
+        <aside class="hero-panel" aria-label="Professional highlights">
+          <div class="summary-card card">
+            <span class="meta-label">Current role</span>
+            <h2>Lead Credit Analyst</h2>
+            <p>American Express · Gurgaon, India</p>
+          </div>
+
+          <div class="metric-grid">
+            <article class="metric-card card">
+              <span class="meta-label">Experience</span>
+              <strong>13+ years</strong>
+            </article>
+            <article class="metric-card card">
+              <span class="meta-label">Risk engagements</span>
+              <strong>3 completed</strong>
+            </article>
+            <article class="metric-card card">
+              <span class="meta-label">Recognition</span>
+              <strong>AI award 2026</strong>
+            </article>
+            <article class="metric-card card">
+              <span class="meta-label">Ratings</span>
+              <strong>Outstanding &amp; Excellent</strong>
+            </article>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container content-grid two-col">
+        <div class="section-copy">
+          <p class="eyebrow">About</p>
+          <h2>A professional profile shaped by discipline, execution, and steady growth</h2>
+          <p>
+            My work has focused on evaluating creditworthiness, monitoring account risk, supporting operational control standards, and improving process execution with internal stakeholders. Over time, that experience has grown into a broader interest in process intelligence, automation, and AI-supported improvement.
           </p>
-          <span class="project-link">Coming soon →</span>
+          <p>
+            I am especially interested in roles and projects where careful business judgment can be combined with better systems, better coordination, and better workflow design.
+          </p>
+        </div>
+
+        <div class="card note-card">
+          <h3>Current focus</h3>
+          <ul class="clean-list">
+            <li>Credit and risk review with operational accountability</li>
+            <li>Bankruptcy-account monitoring to reduce exposure</li>
+            <li>Stakeholder coordination across project and risk workflows</li>
+            <li>Process improvement using AI and structured automation thinking</li>
+          </ul>
         </div>
       </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="section contact">
-      <h2 class="section-title">Contact</h2>
-      <p class="contact-text">
-        Interested in automation, AI, and operations improvement.
-      </p>
-      <ul class="contact-links">
-        <li><a href="https://www.linkedin.com/in/ujjwal-chakrabarti-077066175/" class="contact-link">LinkedIn →</a></li>
-        <li><a href="https://github.com/aiujjwal18-web" class="contact-link">GitHub →</a></li>
-        <li><a href="mailto:ujjwal.chakrabarti18@gmail.com" class="contact-link">Email →</a></li>
-      </ul>
+    <section class="section section-alt" id="strengths">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Strengths</p>
+          <h2>Where my experience creates value</h2>
+        </div>
+
+        <div class="feature-grid">
+          <article class="card feature-card">
+            <h3>Risk assessment</h3>
+            <p>Experience in customer review, account monitoring, discrepancy identification, and credit-risk-related judgment.</p>
+          </article>
+          <article class="card feature-card">
+            <h3>Operational discipline</h3>
+            <p>Regular audit checks, SLA awareness, internal control support, and reliable execution across ongoing responsibilities.</p>
+          </article>
+          <article class="card feature-card">
+            <h3>Cross-functional collaboration</h3>
+            <p>Coordination with internal stakeholders to close risk events, align timelines, and support project progress.</p>
+          </article>
+          <article class="card feature-card">
+            <h3>AI-oriented process improvement</h3>
+            <p>A growing focus on Generative AI, prompt engineering, and practical workflow improvement in business environments.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-heading narrow">
+          <p class="eyebrow">Experience</p>
+          <h2>Career timeline</h2>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item card">
+            <div class="timeline-top">
+              <div>
+                <p class="role-date">02/2019 – Present</p>
+                <h3>Lead Credit Analyst</h3>
+              </div>
+              <p class="company">American Express · Gurgaon, India</p>
+            </div>
+            <ul class="clean-list">
+              <li>Conduct in-depth research on potential customers to assess creditworthiness.</li>
+              <li>Monitor existing accounts for changes affecting customer risk profile.</li>
+              <li>Monitor bankruptcy-reported accounts and action them to reduce credit risk.</li>
+              <li>Collaborate with internal stakeholders to close multiple risk events with potential customer impact.</li>
+              <li>Perform regular audits to help avoid SLA breaches and improve operational quality.</li>
+              <li>Support process improvement, project timelines, training materials, and internal controls.</li>
+            </ul>
+          </article>
+
+          <article class="timeline-item card">
+            <div class="timeline-top">
+              <div>
+                <p class="role-date">11/2015 – 06/2018</p>
+                <h3>Collections Officer</h3>
+              </div>
+              <p class="company">Tata Consultancy Services · Kolkata, India</p>
+            </div>
+            <ul class="clean-list">
+              <li>Managed collection efforts on delinquent accounts through phone, email, and mail communication.</li>
+              <li>Analyzed customer financial situations to support payment plans and settlements.</li>
+              <li>Reviewed credit reports and account histories to manage recovery strategy.</li>
+              <li>Handled disputes, sales errors, client communication, and concurrent B2B and B2C accounts.</li>
+              <li>Provided requirement-based training support to colleagues across teams.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="achievements">
+      <div class="container content-grid two-col achievements-layout">
+        <div class="section-copy">
+          <p class="eyebrow">Achievements</p>
+          <h2>Recognition backed by consistent execution</h2>
+          <p>
+            My recent work reflects a blend of business reliability, operational contribution, and increasing involvement in AI-oriented improvement. These accomplishments show both current performance and the direction of my growth.
+          </p>
+        </div>
+
+        <div class="achievement-stack">
+          <article class="card achievement-card">
+            <span class="tag">Projects</span>
+            <h3>3 operational risk engagements completed</h3>
+          </article>
+          <article class="card achievement-card">
+            <span class="tag">Knowledge work</span>
+            <h3>3 article updates and 1 new article contribution</h3>
+          </article>
+          <article class="card achievement-card">
+            <span class="tag">Recognition</span>
+            <h3>Awarded for process improvement using AI in 2026</h3>
+          </article>
+          <article class="card achievement-card">
+            <span class="tag">Performance</span>
+            <h3>Multiple performance awards in 2026 and strong ratings over the last 3 years</h3>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="credentials">
+      <div class="container content-grid two-col">
+        <div class="card credentials-card">
+          <p class="eyebrow">Education</p>
+          <h2>MBA, Marketing</h2>
+          <p>I.B.M.R Hubli</p>
+        </div>
+
+        <div class="card credentials-card">
+          <p class="eyebrow">Certifications</p>
+          <ul class="clean-list">
+            <li>Agile Project Management — Atlassian University</li>
+            <li>Change Management</li>
+            <li>Generative AI Certification from IIT Patna — Ongoing (Jan 2026 to Aug 2026)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container contact-shell card">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Open to meaningful professional conversations</h2>
+          <p>
+            I am based in Gurgaon, India and interested in discussions around credit, risk, operations, process excellence, and AI-enabled business improvement.
+          </p>
+        </div>
+
+        <div class="contact-links">
+          <a href="mailto:ujjwal.chakrabarti18@gmail.com">ujjwal.chakrabarti18@gmail.com</a>
+          <a href="tel:+919599051510">+91 95990 51510</a>
+          <a href="https://www.linkedin.com/in/ujjwal-chakrabarti-077066175/" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a>
+        </div>
+      </div>
     </section>
   </main>
 
-  <footer class="footer">
-    <p>&copy; 2026 Ujjwal Chakrabarti</p>
-  </footer>
+  <script>
+    (function () {
+      const root = document.documentElement;
+      const toggle = document.querySelector('[data-theme-toggle]');
+      let theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      root.setAttribute('data-theme', theme);
 
-  <script src="script.js"></script>
+      function renderToggle() {
+        toggle.setAttribute('aria-label', theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
+        toggle.innerHTML = theme === 'dark'
+          ? '<span class="theme-toggle__icon">☼</span>'
+          : '<span class="theme-toggle__icon">◐</span>';
+      }
+
+      renderToggle();
+      toggle.addEventListener('click', function () {
+        theme = theme === 'dark' ? 'light' : 'dark';
+        root.setAttribute('data-theme', theme);
+        renderToggle();
+      });
+    })();
+  </script>
 </body>
 </html>
